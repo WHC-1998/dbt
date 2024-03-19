@@ -1,0 +1,9 @@
+nyc_parking_violations:
+  outputs:
+    dev:
+      type: duckdb
+      path: 'C:\Users\My Account\Desktop\Self learning\dbt\nyc_parking_violations.db'
+    prod:
+      type: duckdb
+      path: 'C:\Users\My Account\Desktop\Self learning\dbt\prod_nyc_parking_violations.db'
+  target: dev
